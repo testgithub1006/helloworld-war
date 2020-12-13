@@ -23,7 +23,7 @@ WORKDIR /opt/tomcat/webapps
 
 #Copy application dependencies
 
-ADD  helloworld-0.1-dev.war   ./
+ADD  ./**/helloworld-0.1-dev.war   ./
 
 RUN mkdir /efs_data
 
